@@ -12654,7 +12654,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../WesternAP/FirstYear/MicroI/notes/figures/rationality_experiment.png
+	filename figures/rationality_experiment.png
 	scale 80
 
 \end_inset
@@ -12748,7 +12748,7 @@ Notice that every dataset
 \begin_inset Formula $\mathcal{O}$
 \end_inset
 
-will satisfy GARP(
+ will satisfy GARP(
 \begin_inset Formula $R_{\alpha}$
 \end_inset
 
@@ -12844,7 +12844,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../WesternAP/FirstYear/MicroI/notes/figures/CCEI_Afriat_index.png
+	filename figures/CCEI_Afriat_index.png
 	scale 80
 
 \end_inset
@@ -15413,7 +15413,7 @@ Existence is a consequence of Mixture continuity.
 \begin_inset Formula $\alpha^{n}\in[0,1]$
 \end_inset
 
- in the intersection of this sets that converges to 
+ in the intersection of these sets that converges to 
 \begin_inset Formula $\alpha_{p}$
 \end_inset
 
@@ -15614,6 +15614,41 @@ Note that
 
  be a Bernoulli utility function.
  
+\end_layout
+
+\begin_layout Example
+\begin_inset Formula $Z=\{0,10\}$
+\end_inset
+
+ 
+\begin_inset Formula $p\in\Delta(Z)$
+\end_inset
+
+ 
+\begin_inset Formula $p(0)=\frac{1}{2}$
+\end_inset
+
+, 
+\begin_inset Formula $p(10)=\frac{1}{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $U(p)=\frac{1}{2}u(10)+\frac{1}{2}u(0)$
+\end_inset
+
+, I can choose the Bernoulli utility to be:
+\end_layout
+
+\begin_layout Example
+\begin_inset Formula 
+\[
+u(10)=\kappa\cdot log(10),\kappa>0.
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -16331,7 +16366,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../WesternAP/FirstYear/MicroI/notes/figures/fosd.png
+	filename figures/fosd.png
 
 \end_inset
 
@@ -16396,7 +16431,7 @@ First Prize
 \begin_inset Text
 
 \begin_layout Plain Layout
-Second Price
+Second Prize
 \end_layout
 
 \end_inset
@@ -16405,7 +16440,7 @@ Second Price
 \begin_inset Text
 
 \begin_layout Plain Layout
-Third Price
+Third Prize
 \end_layout
 
 \end_inset
@@ -16470,22 +16505,6 @@ The first,
 \end_layout
 
 \begin_layout Standard
-(Fei: 
-\begin_inset Formula $L_{1}'$
-\end_inset
-
-) (Eduardo: 
-\begin_inset Formula $L_{1}'$
-\end_inset
-
-) (Niko: 
-\begin_inset Formula $L_{1}$
-\end_inset
-
-)
-\end_layout
-
-\begin_layout Standard
 The second,
 \end_layout
 
@@ -16499,22 +16518,6 @@ The second,
 
 .
  
-\end_layout
-
-\begin_layout Standard
-(Fei: 
-\begin_inset Formula $L_{2}'$
-\end_inset
-
-) (Eduardo: 
-\begin_inset Formula $L_{2}'$
-\end_inset
-
-) (Niko: 
-\begin_inset Formula $L_{2}'$
-\end_inset
-
-)
 \end_layout
 
 \begin_layout Standard
@@ -16819,7 +16822,7 @@ By the FOC, we have that
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\pi^{s}u'(x_{s}^{t})=\lambda^{t}p_{s}^{t},\forall s\in S,\forall t.
+\pi_{s}u'(x_{s}^{t})=\lambda^{t}p_{s}^{t},\forall s\in S,\forall t.
 \]
 
 \end_inset
@@ -16929,7 +16932,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../WesternAP/FirstYear/MicroI/notes/figures/polissonquah_passingrates_table_expectedutility.png
+	filename figures/polissonquah_passingrates_table_expectedutility.png
 
 \end_inset
 
@@ -16970,7 +16973,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../WesternAP/FirstYear/MicroI/notes/figures/holt_laury.png
+	filename figures/holt_laury.png
 	lyxscale 150
 	scale 150
 
@@ -18145,7 +18148,7 @@ If all
 \end_layout
 
 \begin_layout Chapter
-Discrete Choice and Logit 
+Discrete Choice and Random Utility
 \end_layout
 
 \begin_layout Standard
@@ -18470,7 +18473,7 @@ F_{\epsilon}(x)=exp(-exp(-\frac{x-\eta}{\mu}))=Pr(\epsilon\leq x)
 \begin_layout Standard
 \begin_inset Formula 
 \[
-P_{ij}=\frac{exp(V_{ij})}{\sum_{j'=0,\cdots,J}exp(V_{ij'})}=\int_{\xi\in supp(\boldsymbol{\xi})}1(V_{ij}-V_{ij'}\geq\epsilon_{ij}-\epsilon_{ij'}\forall j\neq j')F_{\xi}(d\xi).
+P_{ij}=\frac{exp(V_{j})}{\sum_{j'=0,\cdots,J}exp(V_{j'})}=\int_{\xi\in supp(\boldsymbol{\xi})}1(V_{ij}-V_{ij'}\geq\epsilon_{ij}-\epsilon_{ij'}\forall j\neq j')F_{\xi}(d\xi).
 \]
 
 \end_inset
@@ -18639,7 +18642,7 @@ ion patterns.
 \end_layout
 
 \begin_layout Standard
-Let's be more formal about Luce with choice set variation.
+Let's be more formal about Luce/Logit with choice set variation.
  Let 
 \begin_inset Formula $X$
 \end_inset
@@ -18738,7 +18741,7 @@ whenever the probabilities are positive.
 \begin_inset Formula $\rho$
 \end_inset
 
- admits a Logit representation.
+ admits a Logit/Luce representation.
  
 \end_layout
 
@@ -18784,6 +18787,17 @@ Fix
 \end_inset
 
 , by IIA 
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula 
+\[
+\frac{\rho_{A}(x)}{\rho_{A}(x^{*})}=\frac{\rho_{X}(x)}{\rho_{X}(x^{*})}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Proof
@@ -18882,7 +18896,7 @@ Take a choice set
 \end_layout
 
 \begin_layout Example
-Random CD utility: 
+Random Cobb-Douglas utility: 
 \begin_inset Formula $u(x,y)=x^{\alpha}y^{1-\alpha}$
 \end_inset
 
@@ -18930,7 +18944,7 @@ event
 \begin_layout Standard
 \begin_inset Formula 
 \[
-C(x,A):=\{\omega\in\Omega:\boldsymbol{U}_{\omega}(x)>\boldsymbol{U}_{\omega}(y)\quad\text{for all\ensuremath{\quad}}b\in A/\{x\})
+C(x,A):=\{\omega\in\Omega:\boldsymbol{U}_{\omega}(x)>\boldsymbol{U}_{\omega}(y)\quad\text{for all\ensuremath{\quad}}y\in A/\{x\})
 \]
 
 \end_inset
@@ -19164,7 +19178,11 @@ Then we have the following characterization.
 \begin_inset Formula $\rho$
 \end_inset
 
- has a REU representation if and only if it satisfies: -Regularity
+ has a REU representation if and only if it satisfies: 
+\end_layout
+
+\begin_layout Theorem
+-Regularity
 \end_layout
 
 \begin_layout Theorem
@@ -19352,6 +19370,10 @@ Let
 \begin_inset Formula $\pi\in\Delta(R)$
 \end_inset
 
+ where 
+\begin_inset Formula $R=\{\succ_{1},\succ_{2}\}$
+\end_inset
+
 , 
 \begin_inset Formula $\pi(\succ_{1})+\pi(\succ_{2})=1$
 \end_inset
@@ -19361,7 +19383,7 @@ Let
 \end_inset
 
 .
- Let 
+ (Let 
 \begin_inset Formula $X=\{a,b,c\}$
 \end_inset
 
@@ -19374,7 +19396,7 @@ Let
 \end_inset
 
 .
- 
+ )
 \end_layout
 
 \begin_layout Standard
@@ -19392,7 +19414,7 @@ Given a menu
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\rho(a,A)=\rho_{A}(a)=\sum_{\succ\in R}\pi(\succ)\mathbb{I}(a\succ b\forall b\in A\backslash\{a\})=\mathbb{E}[\mathbb{I}(a\boldsymbol{\tilde{\succ}}b\forall b\in A\backslash\{a\})].
+\rho(a,A)=\rho_{A}(a)=\sum_{\succ\in R}\pi(\succ)\mathbb{I}(a\succ b\forall b\in A\backslash\{a\})=\mathbb{E_{\pi}}[\mathbb{I}(a\boldsymbol{\tilde{\succ}}b\forall b\in A\backslash\{a\})].
 \]
 
 \end_inset
@@ -19436,10 +19458,10 @@ Where
 \begin_layout Definition
 (ASRP) Axiom of Stochastic Revealed Preference.
  The choice probability 
-\begin_inset Formula $p$
+\begin_inset Formula $\rho$
 \end_inset
 
- satisfy the ASRP if and only for every sequence of 
+ satisfies the ASRP if and only for every sequence of 
 \begin_inset Formula $(a_{k},D_{k})_{k=1}^{n}$
 \end_inset
 
@@ -19491,26 +19513,35 @@ Where
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\rho_{D_{1}}(a_{1})+\rho_{D_{2}}(a_{1})\leq\max_{\succ\in R}(\mathbb{I}(a_{1}\succ a_{2})+\mathbb{I}(a_{1}\succ a_{j},j\in\{2,3\}))
+\rho_{D_{1}}(a_{1})+\rho_{D_{2}}(a_{1})\leq\max_{\succ\in\{\succ_{1},\succ_{2},\succ_{3}\}}(\mathbb{I}(a_{1}\succ_{1}b)+\mathbb{I}(a_{2}\succ_{2}b\succ_{2}c)+\mathbb{I}(a_{2}\succ_{3}c\succ_{3}b))
 \]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+I invent this data set 
+\begin_inset Formula $\rho$
+\end_inset
+
+ that fails General Random Utility because it violates regularity, namely:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula $\frac{1}{2}=\rho_{D_{1}}(a_{1})<\rho_{D_{2}}(a_{1})=\frac{3}{4}$
 \end_inset
 
-.
+, this is a violation a regularity hence incompatible with General Random
+ Utility.
  
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\frac{5}{4}\leq2,
+\rho_{D_{1}}(a_{1})+\rho_{D_{2}}(a_{1})=\frac{5}{4}
 \]
 
 \end_inset
@@ -19519,13 +19550,29 @@ Where
 \end_layout
 
 \begin_layout Standard
-this passes, but there should be another sequence for which the ASRP fails
- because this dataset violates regularity (ASRP 
-\begin_inset Formula $\implies$
+\begin_inset Formula 
+\[
+\max_{\succ\in\{\succ_{1},\succ_{2},\succ_{3}\}}(\mathbb{I}(a_{1}\succ_{1}b)+\mathbb{I}(a_{2}\succ_{2}b\succ_{2}c)+\mathbb{I}(a_{2}\succ_{3}c\succ_{3}b))=1
+\]
+
 \end_inset
 
- regularity).
- 
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{5}{4}>1.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Lemma
@@ -19540,7 +19587,7 @@ The following are equivalent:
 
 \begin_layout Lemma
 (i) 
-\begin_inset Formula $p$
+\begin_inset Formula $\rho$
 \end_inset
 
  satisfy the ASRP 
@@ -19596,7 +19643,7 @@ where,
 \end_inset
 
  such that 
-\begin_inset Formula $\rho(a,A)=\sum_{r\in R}\pi(r)\mathbb{I}(arb\forall b\in A\backslash\{a\}).$
+\begin_inset Formula $\rho_{A}(a)=\rho(a,A)=\sum_{r\in R}\pi(r)\mathbb{I}(arb\forall b\in A\backslash\{a\}).$
 \end_inset
 
 
@@ -19623,7 +19670,7 @@ where,
 \begin_inset Formula $C\subseteq X$
 \end_inset
 
- (this is called total monotonicity).
+ (this is called total monotonicity/total regularity).
 \end_layout
 
 \begin_layout Standard
@@ -22468,7 +22515,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../WesternAP/FirstYear/MicroI/notes/figures/separatinghyperplanes.png
+	filename figures/separatinghyperplanes.png
 
 \end_inset
 
@@ -22538,7 +22585,7 @@ This market has
 endowment 
 \series default
 is given by 
-\begin_inset Formula $\omega_{i}=(\omega_{i.l})_{l=1}^{L}$
+\begin_inset Formula $\omega_{i}=(\omega_{i,l})_{l=1}^{L}$
 \end_inset
 
  with the restriction that 
@@ -22571,7 +22618,11 @@ Each firm
 \end_inset
 
 .
- The net amount of good on the economy is 
+ The net amount of good 
+\begin_inset Formula $l$
+\end_inset
+
+ on the economy is 
 \begin_inset Formula $\omega_{l}+\sum_{j=1}^{J}y_{l,j}$
 \end_inset
 
@@ -22617,7 +22668,11 @@ Now, we define the main property of any allocation.
 \begin_inset Formula $(x_{1},\cdots,x_{I};y_{1},\cdots,y_{J})$
 \end_inset
 
- is feasible if 
+ is feasible if for every good 
+\begin_inset Formula $l$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Definition
@@ -22853,7 +22908,7 @@ u_{i}(m_{i},x_{i})=m_{i}+\phi_{i}(x_{i}).
 
 \begin_layout Standard
 The consumption set is 
-\begin_inset Formula $X=\mathbb{R}\times\mathbb{R}_{+}^{L}$
+\begin_inset Formula $X=\mathbb{R}\times\mathbb{R}_{+}$
 \end_inset
 
  so that the numeraire may be negative (no boundary problems).
@@ -23034,7 +23089,7 @@ We assume that there is no initial endowment of good
 \begin_layout Definition
 \begin_inset Formula 
 \[
-p\leq c_{j}'(q_{j}),\quad\text{with equality if}\quad q_{j}>0\quad\forall j\in\{1,\cdots,J\}
+p=c_{j}'(q_{j}),\quad\text{with equality if}\quad q_{j}>0\quad\forall j\in\{1,\cdots,J\}
 \]
 
 \end_inset
@@ -23045,7 +23100,7 @@ p\leq c_{j}'(q_{j}),\quad\text{with equality if}\quad q_{j}>0\quad\forall j\in\{
 \begin_layout Definition
 \begin_inset Formula 
 \[
-\phi_{i}'(x_{i})\leq p\quad\text{with equality if}\quad x_{i}>0\quad\forall i\in\{1,\cdots,I\}
+\phi_{i}'(x_{i})=p\quad\text{with equality if}\quad x_{i}>0\quad\forall i\in\{1,\cdots,I\}
 \]
 
 \end_inset
@@ -23423,7 +23478,7 @@ Now notice the first order conditions, for
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\mu\leq c_{j}'(q_{j}),\quad\text{with equality if}\quad q_{j}>0\quad\forall j\in\{1,\cdots,J\}
+\mu=c_{j}'(q_{j}),\quad\text{with equality if}\quad q_{j}>0\quad\forall j\in\{1,\cdots,J\}
 \]
 
 \end_inset
@@ -23434,7 +23489,7 @@ Now notice the first order conditions, for
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\phi_{i}'(x_{i})\leq\mu\quad\text{with equality if}\quad x_{i}>0\quad\forall i\in\{1,\cdots,I\}
+\phi_{i}'(x_{i})=\mu\quad\text{with equality if}\quad x_{i}>0\quad\forall i\in\{1,\cdots,I\}
 \]
 
 \end_inset
@@ -23868,7 +23923,7 @@ Any Walrasian Equilibrim allocation
 \begin_inset Formula $x^{*}$
 \end_inset
 
- necessarily belongs to the Pareto Set.
+ necessarily belongs to the Pareto Set (under local nonsatiation).
  
 \end_layout
 
@@ -23920,8 +23975,12 @@ x_{i}^{*}\succeq x_{i}'\quad\forall x_{i}'\in\mathbb{R}_{+}^{2}\quad s.t.\quad p
 
 \begin_layout Claim
 If the preferences of the consumers in the Edgeworth box are continuous,
- convex, and strongly monotone, then any Pareto optimal allocation is supportabl
-e as an equilibrium with transfers.
+ 
+\series bold
+convex
+\series default
+, and strongly monotone, then any Pareto optimal allocation is supportable
+ as an equilibrium with transfers.
  
 \end_layout
 
@@ -24073,7 +24132,7 @@ The budget constraint of the consumer is
 \end_layout
 
 \begin_layout Standard
-The consumer optimal demand at prices 
+The consumer optimal demand/offer curve at prices 
 \begin_inset Formula $(p,w)$
 \end_inset
 
@@ -24260,8 +24319,11 @@ The data is:
 \end_layout
 
 \begin_layout Standard
-An economy is pure exchange if the only technology disposable is free disposal,
- that is, 
+An economy is
+\series bold
+ pure exchange 
+\series default
+if the only technology disposable is free disposal, that is, 
 \end_layout
 
 \begin_layout Standard
@@ -24935,7 +24997,7 @@ Under local non-satiation we can write (ii) as:
 \end_inset
 
  then 
-\begin_inset Formula $p\cdot x_{i}\geq p\cdot x_{i}^{*}$
+\begin_inset Formula $p\cdot x_{i}>p\cdot x_{i}^{*}$
 \end_inset
 
 .
@@ -25954,8 +26016,11 @@ The Walrasian Equilibrium can be redefined here as follows:
 \begin_inset Formula $x_{i}(\cdot)$
 \end_inset
 
- is the Walrasian demand function).
- 
+ is the Walrasian demand function) (i.e., 
+\begin_inset Formula $x_{i}(p,p\cdot\omega_{i})\in argmax\quad u(x)$
+\end_inset
+
+ subject to the budget constraint.) 
 \end_layout
 
 \begin_layout Definition
